@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrays JavaScripts</title>
+</head>
+<body>
+    <body>
+        <div class="container">
+            <h1>Elementos de un Array</h1>
+            <h2 id="resultado"></h2>
+            <h2 id="salen"></h2>
+            <input type="text "name="" id="box" >
+            <button onclick="addStart()">Agregar al inicio</button>
+            <button onclick="addEnd()">Agregar al final</button>
+            <button onclick="subsStart()">Extraer del inicio</button>
+            <button onclick="subsEnd()">Extraer del final</button>
+
+        </div>
+        <script>
+            const miArray =[];
+            const resultado = document.getElementById('resultado');
+            const salen = document.getElementById('salen');
+            const box = document.getElementById('box');
+            resultado.innerText =miArray;
+
+            const addStart=() =>{
+                const dato =box.value;
+                miArray.unshift(dato);
+                resultado.innerText =miArray.join(' - ');
+            }
+
+            const subsEnd=()=>{
+                const dato=miArray.pop();
+                salen.innerText ='sale -> ${ dato }';
+                resultado.innerText = miArray(' - ');
+            }
+
+            const subStart = () => {
+                const dato=miArray.shift();
+                salen.innerText ='sale -> ${ dato }';
+                resultado.innerText =miArray(' - ');
+            }
+        </script>
+    </body>
+    
+</body>
+</html>
