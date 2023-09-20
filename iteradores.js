@@ -45,6 +45,7 @@ console.log(cuadrados);
 //Crea un nuevo array aparti dl original
 //mientras cumplan una condicion
 
+console.log(pares);
 const pares = numeros.filter(
     numero => {
         if (numero % 2 === 0){
@@ -56,12 +57,11 @@ const pares = numeros.filter(
 //const impares = numeros.filter(numero => % 2 !==0);
 
 console.log(numeros);
-console.log(pares);
 console.log(impares);
-
 //reduce
-// Regresa un unico valor apartir de array
 
+
+// Regresa un unico valor apartir de array
 const sumatoria = numeros.reduce(
     (a, b)=> {
         return a+b;
