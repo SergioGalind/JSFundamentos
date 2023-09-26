@@ -1,0 +1,14 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "msedge",
+            "request": "launch",
+            "name": "Open coloresrgba.html",
+            "file": "c:\\Users\\seric\\OneDrive\\UTT_2022-2023_TIADSM_SEGF_nube\\4to_Cuatri\\DisenoApps\\FundamentosJS\\dom\\coloresrgba.html"
+        }
+    ]
+}
