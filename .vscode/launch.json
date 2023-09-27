@@ -7,7 +7,7 @@
         {
             "type": "msedge",
             "request": "launch",
-            "name": "Open coloresrgba.html",
+            "name": "Open listaDeTareas.html",
             "file": "c:\\Users\\seric\\OneDrive\\UTT_2022-2023_TIADSM_SEGF_nube\\4to_Cuatri\\DisenoApps\\FundamentosJS\\dom\\coloresrgba.html"
         }
     ]
